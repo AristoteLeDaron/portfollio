@@ -334,9 +334,9 @@ export const sideBarLeftSocials = [
 
 export const quotesData = [
   {
-    de: '"Es ist überhaupt nicht wichtig, es beim ersten Mal richtig zu machen. Es ist entscheidend, es beim letzten Mal richtig zu machen."',
-    en: `"It's not at all important to get it right the first time. It's vitally important to get it right the last time."`,
-    author: "Andrew Hunt",
+    de: `"Il n'est pas du tout important que cela fasse mal la première fois. Il est essentiel de bien détendre votre anus la prochaine fois."`,
+    en: `"It's not at all important if it hurts the first time. It's vitally important to get your ass streched right the next time."`,
+    author: "Aristote Nataf",
   },
   {
     de: '"Das Web ist wie eine Leinwand und der Code ist die Farbe. Erschaffe dein Meisterwerk."',
