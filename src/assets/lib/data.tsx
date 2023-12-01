@@ -39,19 +39,19 @@ import Privacy from "../../components/Privacy";
 
 export const headerIntroData = {
   title: {
-    de: "Hi, ich bin Alpay",
-    en: "Hi, I'm Alpay",
+    de: "Salut, c'est Aristote",
+    en: "Hi, I'm Aristote",
   },
   subtitle: "Fullstack Developer ",
   description: {
-    de: "Ich bin Alpay, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
-    en: "I'm Alpay, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    de: "Le développement web, à mes yeux, est bien plus qu'une suite de codes : c'est un vecteur de connexions, d'innovations et d'expériences mémorables. Grâce à un parcours singulier alliant gestion, restauration et sécurité, je mets en avant une adaptabilité et une polyvalence sans pareilles. Ma vision unique, couplée à une énergie débordante et un pragmatisme aiguisé, me permet d'aborder chaque projet avec fraîcheur et enthousiasme.",
+    en: "Web development, in my eyes, is much more than just a series of codes: it's a conduit for connections, innovations, and memorable experiences. Thanks to a unique journey that combines management, restoration, and security, I bring to the table unparalleled adaptability and versatility. My distinct vision, coupled with boundless energy and sharp pragmatism, allows me to approach each project with freshness and enthusiasm.",
   },
   buttons: [
     {
       name: "Contact",
       label: {
-        de: "Kontaktiere mich",
+        de: "Me contacter",
         en: "Contact me",
       },
       icon: FiMail,
@@ -60,7 +60,7 @@ export const headerIntroData = {
     {
       name: "Projects",
       label: {
-        de: "Meine Projekte",
+        de: "Mes Projets",
         en: "My Projects",
       },
       icon: FiGithub,
@@ -169,7 +169,7 @@ export const projectsData = [
 
 export const liveTickerData = {
   content: {
-    de: "Weitere Projekte auf Github",
+    de: "Plus de Projets sur Github",
     en: "More Projects on Github",
   },
 } as const;
@@ -299,13 +299,13 @@ export const skillsDataCMS = [
 export const navLinks = [
   { de: "Home", en: "Home", hash: "#home", icon: GoHome },
   { de: "Skills", en: "Skills", hash: "#skills", icon: GoStack },
-  { de: "Projekte", en: "Projects", hash: "#projects", icon: GoProject },
-  { de: "Über mich", en: "About me", hash: "#about-me", icon: GoPerson },
-  { de: "Kontakt", en: "Contact", hash: "#contact", icon: GoMail },
+  { de: "Projets", en: "Projects", hash: "#projects", icon: GoProject },
+  { de: "A propos de moi", en: "About me", hash: "#about-me", icon: GoPerson },
+  { de: "Contact", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
 export const FooterLinks = [
-  { de: "Impressum", en: "Imprint", hash: "#imprint", data: <Imprint /> },
+  { de: "Imprimer", en: "Imprint", hash: "#imprint", data: <Imprint /> },
   { de: "Datenschutz", en: "Privacy", hash: "#privacy", data: <Privacy /> },
 ] as const;
 
@@ -316,7 +316,7 @@ export const sideBarRightMail = {
 
 export const sideBarLeftSocials = [
   {
-    link: "https://www.linkedin.com/in/alpay/",
+    link: "https://www.linkedin.com/in/aristote-nataf-671a0a28a/",
     icon: FiLinkedin,
     altimgname: "linkedin",
   },
@@ -345,7 +345,7 @@ export const quotesData = [
 ] as const;
 
 export const aboutMeData = {
-  title: "Über mich",
+  title: "A propos de moi",
   title_EN: "About me",
   description: "Ein paar Codeschnippsel über mich",
   description_EN: "A few code snippets about me",
@@ -469,8 +469,8 @@ export const contactData = {
   },
   privacyOptIn: {
     checkbox: {
-      de: "Ich stimme zu, dass Alpay meine personenbezogenen Daten (Name und E-Mail-Adresse) verwenden darf, um mit mir Kontakt aufzunehmen.",
-      en: "I agree that Alpay may use my personal data (name and e-mail address) to contact me.",
+      de: "Je consens à ce qu'Aristote utilise mes données personnelles (nom et adresse e-mail) pour me contacter.",
+      en: "I consent to Aristote using my personal information (name and email address) for the purpose of contacting me",
     },
     description: {
       de: "Durch Übermittlung dieser Anfrage bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben",
